@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="NestedMasterPage1.master.cs" Inherits="TourAndTravels.NestedMasterPage1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/packages.css" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <section class="packages-section">
+
+        <asp:Label ID="Label1" runat="server" CssClass="packages-section-label" Text="BEST PACKAGE"></asp:Label>
+
+        <div class="packages-section-row-title">
+            <asp:Label ID="Label2" runat="server" CssClass="title-lbl" Text="Our Best Packages For You"></asp:Label>
+
+            <nav class="nav">
+                <asp:HyperLink ID="HyperLink1"   runat="server" NavigateUrl="hotdealspackage.aspx">Hot Deals</asp:HyperLink>
+
+                <asp:HyperLink ID="HyperLink2"  runat="server" NavigateUrl="backpackpackage.aspx">Back Pack</asp:HyperLink>
+
+                <asp:HyperLink ID="HyperLink3"  runat="server" NavigateUrl="~/asiapackage.aspx">Asia</asp:HyperLink>
+
+                <asp:HyperLink ID="HyperLink4"  runat="server" NavigateUrl="~/europepackage.aspx">Europe</asp:HyperLink>
+            </nav>
+
+             
+        </div>
+
+    </section>
+
+   <asp:ContentPlaceHolder  ID="ContentPlaceHolder1" runat="server">
+
+    </asp:ContentPlaceHolder>
+    
+</asp:Content>

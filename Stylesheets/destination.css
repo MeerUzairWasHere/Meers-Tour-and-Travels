@@ -1,0 +1,214 @@
+﻿.destination-section {
+    display: flex;
+    padding: 32px 64px;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background: #FFF7EC;
+}
+
+.card-img {
+    width: 100%;
+}
+.img-div {
+    width: 360px;
+}
+.destination-section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+}
+.destination-section-title-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.destination-label {
+    color: #FE8C00;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.destination-section-title-btn {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid #FE8C00;
+}
+.destination-section-title a {
+    text-decoration: none;
+    color: #FE9515;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+    .destination-section-title a:hover {
+        transition: ease-in-out 0.3s;
+        background-color: #FE9515;
+        color:white;
+    }
+
+.content-sec {
+    display: flex;
+    width: 768px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.destination-title {
+    color: var(--black, #000);
+    /* Heading/H2 */
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+    align-self: stretch;
+}
+.destination-text {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+
+.destination-section-content-row {
+    display: flex;
+    gap: 32px;
+    width:100%;
+    flex-wrap:nowrap;
+    border-radius:6px;
+    overflow-x:auto;
+}
+.card {
+    cursor:pointer;
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius:10px;
+    border:none;
+}
+  /*  .card:hover{
+        transform:translateY(5px);
+        transition:ease-in-out 0.2s;
+    }*/
+
+.card-content {
+    display: flex;
+    height: 217px;
+    padding: 24px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+.card-content-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.info-1-text {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    background: var(--light-grey, #F4F4F4);
+    line-height: 150%; /* 21px */
+}
+.info-2 {
+    color: #FE8C00;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.card-title {
+    color: var(--black, #000);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    align-self: stretch;
+    line-height: 140%; /* 33.6px */
+}
+.location {
+    display: flex;
+    align-items:center;
+    gap: 8px;
+  
+}
+.location-text {
+    color: black;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+@media screen and (max-width: 430px) {
+   
+    .destination-section {
+        padding: 0 20px;
+    }
+
+    .destination-section-title{
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+    }
+    .content-sec{
+        width:100%;
+    }
+    .destination-title{
+        font-size:25px;
+    }
+    .card{
+        width:100%;
+    }
+    .img-div{
+        width:100%;
+    }
+    .destination-section-title-content{
+        text-align:center;
+        align-items:center;
+    }
+    .destination-section-content-row{
+        flex-direction:column;
+        gap:0;
+    }
+    .card-content{
+        height:100%;
+    }
+}

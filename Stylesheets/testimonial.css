@@ -1,0 +1,127 @@
+﻿.testimonial-section {
+    display: flex;
+    padding: 15px 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #FFF7EC;
+}
+.head-lbl {
+    color: #FE8C00;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.testimonial-title-section {
+    display: flex;
+    width: 768px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.title-lbl {
+    color: var(--black, #000);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    align-self: stretch;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+}
+.title-text {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    align-self: stretch;
+    line-height: 150%;
+}
+.testimonial-content-section {
+    display: flex;
+    height: 338px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.test-card {
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: flex-end;
+    transition: transform 0.3s ease-in-out;
+    align-items: flex-start;
+}
+
+    .test-card:hover {
+        transform: scale(1.03);
+        cursor: pointer;
+    }
+.test-card-content {
+    display: flex;
+    background-color: white;
+    width: 350px;
+    height: 320px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border: 1px solid black;
+}
+.testimonial-desc {
+    color: #383838;
+    font-size: 18px;
+    align-self: stretch;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: auto;
+}
+.user-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.user-name {
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+}
+.user-prof {
+    color: #A5A5A5;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+@media screen and (max-width: 430px) {
+    
+    .testimonial-section {
+        padding: 30px 20px;
+    }
+    .title-lbl{
+        font-size:20px;
+    }
+    
+    .testimonial-content-section{
+        flex-direction:column;
+        height:100%;
+        gap:20px;
+        
+    }
+    .testimonial-title-section{
+        width:100%;
+        gap:10px;
+    }
+    .test-card-content{
+        width:100%;
+        height:100%;
+    }
+}

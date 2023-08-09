@@ -1,0 +1,132 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+.experience-section {
+    display: flex;
+    padding: 0px 64px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background: #FFF7EC;
+}
+
+.experience-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.content-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.content-title-mini {
+    color: #FE8C00;
+    margin-top:15px;
+    font-size: 18px;
+    line-height: 150%;
+}
+.experience-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.experience-label1 {
+    color: black;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+    align-self: stretch;
+}
+.experience-label2 {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.experience-section-img {
+    border-radius: 20px;
+    width:340px;
+    
+}
+.content-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.list-row {
+    display: flex;
+    padding: 8px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.list-row-item {
+    display: flex;
+    width: 210px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.item-text-1 {
+    color: #FE8C00;
+    align-self: stretch;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+}
+.item-text-2 {
+    color: black;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    align-self: stretch;
+}
+@media screen and (max-width: 430px) {
+    
+
+
+    .experience-section {
+        flex-direction: column-reverse;
+        padding: 30px 20px;
+        gap:20px;
+    }
+
+    .experience-section-img{
+        width:100%;
+    }
+    .experience-main-content {
+        align-items: center;
+    }
+    
+    .experience-section-content {
+        width: 100%;
+        gap:16px;
+        align-items:center;
+        text-align:center;
+    }
+    .experience-label1{
+        font-size:37px;
+    }
+    .list-row{
+        flex-direction:column;
+    }
+    .content-title{
+        align-items:center;
+    }
+}
