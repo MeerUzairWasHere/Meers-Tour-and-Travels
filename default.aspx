@@ -12,9 +12,7 @@ The Beauty Of
 Dream world"></asp:Label>
                 </div>
                 <div class="hero-section-content-span">
-                    <asp:Label ID="Label2" runat="server" Text="We always out customer happy by providing as many chises
-as possible we always our customers happy by providing as
-many possible by providing as many chises as"></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="We always aim to make our customers happy by offering as many choices as possible."></asp:Label>
                 </div>
 
                 <asp:LinkButton ID="LinkButton2" href="mailto:businessmail.uzair@gmail.com" CssClass="experience-button" runat="server">Contact Us</asp:LinkButton>
