@@ -126,8 +126,7 @@
     .experience-section-content {
         width: 100%;
         gap:16px;
-/*        align-items:center;*/
-/*        text-align:center;*/
+
     }
     .experience-label1{
         font-size:37px;
@@ -135,9 +134,7 @@
     .list-row{
         flex-direction:column;
     }
-    .content-title{
-        align-items:center;
-    }
+
    
 }
 @media (min-width: 577px) and (max-width: 768px) {
