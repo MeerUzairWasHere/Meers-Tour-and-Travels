@@ -41,7 +41,6 @@
 }
 .testimonial-content-section {
     display: flex;
-    height: 338px;
     width: 100%;
     justify-content: space-evenly;
 }
@@ -101,7 +100,7 @@
     font-weight: 400;
     line-height: 150%; /* 24px */
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
     
     .testimonial-section {
         padding: 30px 20px;
@@ -123,5 +122,16 @@
     .test-card-content{
         width:100%;
         height:100%;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    .test-card-content {
+        width: auto;
+        height: auto;
+    }
+
+    .testimonial-content-section {
+        flex-direction: column;
+        gap: 20px;
     }
 }

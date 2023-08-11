@@ -36,7 +36,7 @@
                         Meer`s Tour & Travels</asp:HyperLink>
                 </div>
 
-                <div class="burger-logo">
+                <div class="burger-logo"> 
                 <img alt="hamburger" id="hamburger" src="assets/burger-logo.svg " />
                 </div>
                

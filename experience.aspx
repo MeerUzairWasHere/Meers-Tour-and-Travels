@@ -4,6 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="experience-section">
+        <div class="container">
 
         <div class="experience-section-content">
             <div class="content-title">
@@ -38,9 +39,10 @@ many possible by providing as many chises as"></asp:Label>
                 </div>
             </div>
         </div>
-        <div class="experience-section-img">
             <asp:Image ID="Image1" CssClass="experience-section-img" runat="server"  ImageUrl="~/assets/exp-Image.png" />
         </div>
+     
+        </div>
 
-    </div>
+    
 </asp:Content>
