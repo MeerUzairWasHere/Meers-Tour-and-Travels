@@ -1,11 +1,14 @@
-﻿.form {
+﻿.back{
+    color: black;
+}
+
+.form {
     display: flex;
     flex-direction: column;
     gap: 10px;
     max-width: 350px;
     max-height: 350px;
     margin: auto;
-    background-color: #fff;
     padding: 20px;
     border-radius: 20px;
 }
@@ -74,7 +77,7 @@
         width: 100%;
         padding: 10px 10px 20px 10px;
         outline: 0;
-        border: 1px solid rgba(105, 105, 105, 0.397);
+        border: 1px solid #FE8C00;
         border-radius: 10px;
     }
 

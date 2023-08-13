@@ -1,8 +1,14 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/NestedMasterPage1.master" AutoEventWireup="true" CodeBehind="form.aspx.cs" Inherits="TourAndTravels.WebForm9" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="form.aspx.cs" Inherits="TourAndTravels.WebForm10" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/form.css" />
 
-      <div class="form" runat="server" ID="formDiv">
-     
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+   
+
+
+     <div class="form" runat="server" ID="formDiv">
+      <asp:LinkButton ID="LinkButton1" CssClass="back" href="hotdealspackage.aspx" runat="server">⬅ back to Packages</asp:LinkButton>
     <p class="title">Get a quote! </p>
         <div class="flex">
         <label>

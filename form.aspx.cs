@@ -7,12 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace TourAndTravels
 {
-    public partial class WebForm9 : System.Web.UI.Page
+    public partial class WebForm10 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-       
     }
 }

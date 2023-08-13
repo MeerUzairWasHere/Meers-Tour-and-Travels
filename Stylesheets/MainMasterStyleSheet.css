@@ -10,10 +10,12 @@
 }
 
 
+
 body {
     font-family: 'Poppins', sans-serif;
     color: black;
-    position:relative;
+
+    
 }
 
 
@@ -115,7 +117,11 @@ body {
         align-items: flex-start;
         gap: 16px;
     }
-
+    form{
+        display:flex;
+        flex-direction:column;
+        min-height:100vh;
+    }
     .offer-button {
         border-radius: 6px;
         border: 1px solid #FFF;
@@ -145,6 +151,7 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 32px;
+        margin-top:auto;
     }
    
 
