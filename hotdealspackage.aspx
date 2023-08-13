@@ -29,8 +29,11 @@
                         <asp:Label ID="Label4" runat="server" CssClass="location-text" Text="London, Inggris"></asp:Label>
                     </div>
 
-                    <asp:LinkButton ID="LinkButton1" CssClass="location-btn" target="_blank" href="https://en.wikipedia.org/wiki/Blue_Lagoon_Island" runat="server">Explore More</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton1" href="form.aspx" CssClass="location-btn"  runat="server">Get a quote!</asp:LinkButton>
 
+                   
+
+                   
 
                 </div>
             </div>
@@ -56,7 +59,7 @@
                         <asp:Label ID="Label10" runat="server" CssClass="location-text" Text="London, Inggris"></asp:Label>
                     </div>
 
-                    <asp:LinkButton ID="LinkButton11" CssClass="location-btn" target="_blank" href="https://en.wikipedia.org/wiki/Petra" runat="server">Explore More</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton11" CssClass="location-btn"   href="form.aspx"  runat="server">Get a quote!</asp:LinkButton>
 
 
                 </div>
@@ -84,7 +87,7 @@
                         <asp:Label ID="Label17" runat="server" CssClass="location-text" Text="London, Inggris"></asp:Label>
                     </div>
 
-                    <asp:LinkButton ID="LinkButton18" CssClass="location-btn" target="_blank" href="https://en.wikipedia.org/wiki/Bagan" runat="server">Explore More</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton18" CssClass="location-btn"  href="form.aspx" runat="server">Get a quote!</asp:LinkButton>
 
 
                 </div>
@@ -109,7 +112,7 @@
                         <asp:Label ID="Label4244" runat="server" CssClass="location-text" Text="London, Inggris"></asp:Label>
                     </div>
 
-                    <asp:LinkButton ID="LinkButton1231" CssClass="location-btn" target="_blank" href="https://en.wikipedia.org/wiki/Blue_Lagoon_Island" runat="server">Explore More</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton1231" CssClass="location-btn"  href="form.aspx" runat="server">Get a quote!</asp:LinkButton>
 
 
                 </div>
@@ -136,7 +139,7 @@
                         <asp:Label ID="Label313110" runat="server" CssClass="location-text" Text="London, Inggris"></asp:Label>
                     </div>
 
-                    <asp:LinkButton ID="LinkButton213111" CssClass="location-btn" target="_blank" href="https://en.wikipedia.org/wiki/Petra" runat="server">Explore More</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton213111" CssClass="location-btn" href="form.aspx" runat="server">Get a quote!</asp:LinkButton>
 
 
                 </div>
@@ -164,17 +167,19 @@
                         <asp:Label ID="Label15557" runat="server" CssClass="location-text" Text="London, Inggris"></asp:Label>
                     </div>
 
-                    <asp:LinkButton ID="LinkButton1458" CssClass="location-btn" target="_blank" href="https://en.wikipedia.org/wiki/Bagan" runat="server">Explore More</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton1458" CssClass="location-btn"  href="form.aspx" runat="server">Get a quote!</asp:LinkButton>
 
 
-                </div>
+                </div> 
             </div>
         </div>
 
 
     </section>
     </section>
-        
+       
+   
+    
     
 </asp:Content>
 

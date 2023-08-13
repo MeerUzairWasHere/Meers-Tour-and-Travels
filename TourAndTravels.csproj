@@ -86,6 +86,7 @@
     <Content Include="Stylesheets\destination.css" />
     <Content Include="Stylesheets\experience.css" />
     <Content Include="Stylesheets\default.css" />
+    <Content Include="Stylesheets\form.css" />
     <Content Include="Stylesheets\MainMasterStyleSheet.css" />
     <Content Include="Stylesheets\packages.css" />
     <Content Include="Stylesheets\testimonial.css" />
@@ -98,6 +99,7 @@
     <Content Include="asiapackage.aspx" />
     <Content Include="europepackage.aspx" />
     <Content Include="testimonial.aspx" />
+    <Content Include="form.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="NestedMasterPage1.master.cs">
@@ -170,6 +172,13 @@
     </Compile>
     <Compile Include="testimonial.aspx.designer.cs">
       <DependentUpon>testimonial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="form.aspx.cs">
+      <DependentUpon>form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="form.aspx.designer.cs">
+      <DependentUpon>form.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

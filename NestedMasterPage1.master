@@ -2,6 +2,8 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" type="text/css" href="Stylesheets/packages.css" />
+    <link rel="stylesheet" type="text/css" href="Stylesheets/form.css" />
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section class="packages-section">
@@ -29,6 +31,5 @@
    <asp:ContentPlaceHolder  ID="ContentPlaceHolder1" runat="server">
 
     </asp:ContentPlaceHolder>
-
     
 </asp:Content>
