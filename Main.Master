@@ -27,7 +27,7 @@
    </script>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form class="main-container" id="form1" runat="server">
 
         <nav class="main-navbar">
             <div class="nav-container">

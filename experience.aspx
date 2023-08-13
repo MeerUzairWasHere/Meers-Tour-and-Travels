@@ -4,9 +4,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="experience-section">
-        <div class="container">
+        <div class="experience-section-container">
+            <div class="div-wrapper">
 
-        <div class="experience-section-content">
             <div class="content-title">
 
                 <asp:Label ID="Label1" CssClass="content-title-mini" runat="server" Text="OUR EXPERIENCE"></asp:Label>
@@ -21,7 +21,13 @@ many possible by providing as many chises as"></asp:Label>
                 </div>
 
             </div>
-            <div class="content-list">
+            
+
+            </div>
+                
+        <asp:Image ID="Image1" CssClass="experience-section-img"  runat="server"  ImageUrl="~/assets/exp-Image.png" />
+            </div>
+        <div class="content-list">
                 <div class="list-row">
                     <div class="list-row-item">
                         <asp:Label ID="Label4" CssClass="item-text-1" runat="server" Text="235"></asp:Label>
@@ -38,11 +44,9 @@ many possible by providing as many chises as"></asp:Label>
                     </div>
                 </div>
             </div>
-        </div>
-            <asp:Image ID="Image1" CssClass="experience-section-img" runat="server"  ImageUrl="~/assets/exp-Image.png" />
-        </div>
-     
-        </div>
+        </div> 
+    
+        
 
     
 </asp:Content>

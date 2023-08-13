@@ -31,6 +31,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    width: 100%;
+    flex-direction: column;
     align-self: stretch;
 }
 .destination-section-title-content {
@@ -73,7 +75,6 @@
 
 .content-sec {
     display: flex;
-    width: 768px;
     flex-direction: column;
     align-items: center;
     gap: 24px;

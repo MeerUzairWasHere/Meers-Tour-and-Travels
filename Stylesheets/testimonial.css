@@ -16,7 +16,6 @@
 }
 .testimonial-title-section {
     display: flex;
-    width: 768px;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -42,7 +41,9 @@
 .testimonial-content-section {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    flex-wrap:wrap;
+    gap: 20px;
+    justify-content:space-evenly;
 }
 .test-card {
     display: flex;
@@ -59,8 +60,9 @@
 .test-card-content {
     display: flex;
     background-color: white;
-    width: 350px;
-    height: 320px;
+    height:350px;
+    width:350px;
+
     padding: 32px;
     flex-direction: column;
     align-items: flex-start;
