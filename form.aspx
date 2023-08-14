@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    
 
-
+   
      <div class="form" runat="server" ID="formDiv">
       <asp:LinkButton ID="LinkButton1" CssClass="back" href="hotdealspackage.aspx" runat="server">⬅ back to Packages</asp:LinkButton>
     <p class="title">Get a quote! </p>
@@ -30,7 +30,10 @@
       <label>
         <input required="" placeholder="" name="contact" type="tel" class="input">
         <span>Phone number</span>
-    </label> 
+ </label>
+         <label>
+        <textarea required="" placeholder="Message" name="message" class="input" ></textarea>
+ </label>
         
     <button class="submit">Submit</button>
     
