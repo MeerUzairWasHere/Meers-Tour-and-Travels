@@ -5,29 +5,29 @@
 <html>
 <head runat="server">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Meer`s Tour & Travels</title>
 
     <link rel="stylesheet" type="text/css" href="Stylesheets/MainMasterStyleSheet.css" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.ico">
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-   <script>
-       document.addEventListener("DOMContentLoaded", function () {
-           let hamburger = document.getElementById("hamburger");
-           const navItems = document.getElementById("navItems");
-    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let hamburger = document.getElementById("hamburger");
+            const navItems = document.getElementById("navItems");
 
-           hamburger.addEventListener("click", function () {
-               navItems.classList.toggle("nav-items-active");
-              
-           });
-       });
 
-   </script>
+            hamburger.addEventListener("click", function () {
+                navItems.classList.toggle("nav-items-active");
+
+            });
+        });
+
+    </script>
 </head>
 <body>
-    <form  action="https://formsubmit.co/businessmail.uzair@gmail.com" method="POST" id="form1" runat="server">
+    <form action="https://formsubmit.co/businessmail.uzair@gmail.com" method="POST" id="form1" runat="server">
 
         <nav class="main-navbar">
             <div class="nav-container">
@@ -36,11 +36,11 @@
                         Meer`s Tour & Travels</asp:HyperLink>
                 </div>
 
-                <div class="burger-logo"> 
-                <img alt="hamburger" id="hamburger" src="assets/burger-logo.svg " />
+                <div class="burger-logo">
+                    <img alt="hamburger" id="hamburger" src="assets/burger-logo.svg " />
                 </div>
-               
-            
+
+
                 <div id="navItems" class="nav-items">
                     <asp:HyperLink ID="HyperLink1" href="default.aspx" runat="server">Home</asp:HyperLink>
                     <asp:HyperLink ID="HyperLink2" href="experience.aspx" runat="server">Experience</asp:HyperLink>
@@ -51,42 +51,36 @@
             </div>
         </nav>
 
-        <div >
+        <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-
             </asp:ContentPlaceHolder>
         </div>
 
-       
-
-        
-            
-
-            <section class="main-footer">
-                <div class="main-footer-content">
-                     <asp:HyperLink ID="HyperLink6" href="default.aspx" runat="server">Home</asp:HyperLink>
-                    <asp:HyperLink ID="HyperLink7" href="experience.aspx" runat="server">Experience</asp:HyperLink>
-                    <asp:HyperLink ID="HyperLink8" href="destination.aspx" runat="server">Destination</asp:HyperLink>
-                    <asp:HyperLink ID="HyperLink9" href="hotdealspackage.aspx" runat="server">Packages</asp:HyperLink>
-                    <asp:HyperLink ID="HyperLink10" href="testimonial.aspx" runat="server">Testimonial</asp:HyperLink>
+        <section class="main-footer">
+            <div class="main-footer-content">
+                <asp:HyperLink ID="HyperLink6" href="default.aspx" runat="server">Home</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink7" href="experience.aspx" runat="server">Experience</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" href="destination.aspx" runat="server">Destination</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink9" href="hotdealspackage.aspx" runat="server">Packages</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink10" href="testimonial.aspx" runat="server">Testimonial</asp:HyperLink>
+            </div>
+            <div class="main-footer-credits">
+                <div class="main-footer-credits-text">
+                    <asp:Label ID="Label4" runat="server" Text="&#169; 2023. All right reserved."></asp:Label>
                 </div>
-                <div class="main-footer-credits">
-                    <div class="main-footer-credits-text">
-                        <asp:Label ID="Label4" runat="server" Text="&#169; 2023. All right reserved."></asp:Label>
-                    </div>
 
-                    <div class="main-footer-credits-links">
-                        
-                      <asp:HyperLink ID="HyperLink11" Target="_blank" href="https://www.privacypolicygenerator.info/live.php?token=9OYslTEORjSY7luZWnyAo5z65S4kOE5E" runat="server">Privacy Policy</asp:HyperLink>
+                <div class="main-footer-credits-links">
+
+                    <asp:HyperLink ID="HyperLink11" Target="_blank" href="https://www.privacypolicygenerator.info/live.php?token=9OYslTEORjSY7luZWnyAo5z65S4kOE5E" runat="server">Privacy Policy</asp:HyperLink>
                     <asp:HyperLink ID="HyperLink12" Target="_blank"
-            href="https://www.termsfeed.com/live/0df12dd3-fa76-4b1a-b59c-a9ae3843ea2d"
-                        runat="server" >Terms of Service</asp:HyperLink>
+                        href="https://www.termsfeed.com/live/0df12dd3-fa76-4b1a-b59c-a9ae3843ea2d"
+                        runat="server">Terms of Service</asp:HyperLink>
                     <asp:HyperLink ID="HyperLink13" href="https://www.freeprivacypolicy.com/live/5b83441e-c37e-4456-b21c-cf6e120cffc0" Target="_blank" runat="server">Cookies Settings</asp:HyperLink>
-                    </div>
                 </div>
-            </section>
-      
-        
+            </div>
+        </section>
+
+
     </form>
 </body>
 </html>
