@@ -310,7 +310,7 @@ body {
         }
     }
 
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 868px) {
     .nav-items {
         position: fixed;
         right: -200%;
@@ -326,7 +326,7 @@ body {
         background: white;
         display: flex;
         position: absolute;
-        top: 2.5rem;
+        top: 70px;
         padding: 0.625rem 1.25rem;
         right: 0;
         width: 30%;
