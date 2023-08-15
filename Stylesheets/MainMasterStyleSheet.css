@@ -19,13 +19,15 @@ body {
 }
 
 
-    .main-navbar {
-        display: flex;
-        height: 72px;
-        padding: 0px 64px;
-        justify-content: center;
-        align-items: center;
-    }
+.main-navbar {
+    display: flex;
+    height: 72px;
+    padding: 0px 64px;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);-
+}
 
     .logo a {
         text-decoration: none;
